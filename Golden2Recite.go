@@ -17,7 +17,7 @@ func main() {
 
 	app := cli.NewApp()
 	app.Name = "golden2recite"
-	app.Usage = "To transform the Goldendict history to reciteword format"
+	app.Usage = "Transform the Goldendict history to Reciteword format"
 
 	app.Action = func(c *cli.Context) {
 		if c.Args()[0] != "" {
