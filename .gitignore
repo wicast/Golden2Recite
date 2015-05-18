@@ -8,7 +8,7 @@ Godeps
 
 # Folders
 bin
-src
+pkg
 .godeps
 _obj
 _test
