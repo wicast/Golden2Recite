@@ -2,6 +2,8 @@
 
 Golden2Recite is a tool for convert [Goldendict](http://goldendict.org/) history to [生词本背单词](https://play.google.com/store/apps/details?id=zoz.reciteword) acceptable format.  
 
+~~This project is mainly for golang practising.~~
+
 *Notice that this tool is using stardict format to lookup explanation.*
 
 ### Usage
