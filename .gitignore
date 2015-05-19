@@ -1,5 +1,5 @@
-#Files
-Godeps
+recitable_*
+unchecked_*
 
 # Compiled Object files, Static and Dynamic libs (Shared Objects)
 *.o
