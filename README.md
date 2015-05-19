@@ -43,4 +43,4 @@ Golang Compiler is required.
 2. `gpm install` —— Install Dependency into GOPATH
 3. `go install` —— Build project,the executable can be found in "bin" folder.
 
-If you need cross complier for other platform check this [article out](http://spf13.com/post/cross-compiling-go/).
+If you need cross complier for other platform check this [article](http://spf13.com/post/cross-compiling-go/) out.
