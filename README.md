@@ -34,6 +34,10 @@ This will create two new files with prefix "recitable_" as importable for 生词
 http://github.com/codegangsta/cli —— Cli  
 https://github.com/chuangbo/jianbing-dictionary-dns/blob/master/golang/jianbing-dns/stardict/stardict.go —— stardict api(modified)
 
+### Install
+1. Make sure you have set `GOPATH`
+2. `go get -u github.com/wicastchen/Golden2Recite`
+
 ### Build
 This project use [gvp](https://github.com/pote/gvp) and [gpm](https://github.com/pote/gpm) as dependency manager.
 
