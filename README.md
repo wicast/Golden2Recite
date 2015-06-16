@@ -37,10 +37,13 @@ https://github.com/chuangbo/jianbing-dictionary-dns/blob/master/golang/jianbing-
 ### Build
 This project use [gvp](https://github.com/pote/gvp) and [gpm](https://github.com/pote/gpm) as dependency manager.
 
+[gpm-local](https://github.com/technosophos/gpm-local) plugin is required to manage subpackages.
+
 Golang Compiler is required.
 
 1. `source gvp in` —— Set local GOPATH
 2. `gpm install` —— Install Dependency into GOPATH
-3. `go install` —— Build project,the executable can be found in "bin" folder.
+3. `gpm local name github.com/wicastchen/Golden2Recite` —— Set subpackages.
+4. `go install` —— Build project,the executable can be found in "bin" folder.
 
 If you need cross complier for other platform check this [article](http://spf13.com/post/cross-compiling-go/) out.

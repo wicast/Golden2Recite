@@ -1,13 +1,13 @@
 package main
 
 import (
-	"./src/deduplicator"
-	"./src/digest"
-	"./src/file/reader"
-	"./src/file/writer"
-	"./src/formatter"
 	"fmt"
 	"github.com/codegangsta/cli"
+	"github.com/wicastchen/Golden2Recite/src/deduplicator"
+	"github.com/wicastchen/Golden2Recite/src/digest"
+	"github.com/wicastchen/Golden2Recite/src/file/reader"
+	"github.com/wicastchen/Golden2Recite/src/file/writer"
+	"github.com/wicastchen/Golden2Recite/src/formatter"
 	"os"
 	"path/filepath"
 	"strings"
