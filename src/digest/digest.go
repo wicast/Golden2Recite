@@ -1,8 +1,8 @@
 package digest
 
 import (
-	"github.com/wicastchen/Golden2Recite/src/formatter"
-	"github.com/wicastchen/Golden2Recite/src/stardict"
+	"github.com/wicast/Golden2Recite/src/formatter"
+	"github.com/wicast/Golden2Recite/src/stardict"
 	//"fmt"
 	"runtime"
 	"sync"
