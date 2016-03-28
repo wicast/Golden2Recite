@@ -36,7 +36,7 @@ https://github.com/chuangbo/jianbing-dictionary-dns/blob/master/golang/jianbing-
 
 ### Install
 1. Make sure you have set `GOPATH`
-2. `go get -u github.com/wicastchen/Golden2Recite`
+2. `go get -u github.com/wicast/Golden2Recite`
 
 ### Build
 This project use [gvp](https://github.com/pote/gvp) and [gpm](https://github.com/pote/gpm) as dependency manager.
@@ -47,7 +47,7 @@ Golang Compiler is required.
 
 1. `source gvp in` —— Set local GOPATH
 2. `gpm install` —— Install Dependency into GOPATH
-3. `gpm local name github.com/wicastchen/Golden2Recite` —— Set subpackages.
+3. `gpm local name github.com/wicast/Golden2Recite` —— Set subpackages.
 4. `go install` —— Build project,the executable can be found in "bin" folder.
 
 If you need cross complier for other platform check this [article](http://spf13.com/post/cross-compiling-go/) out.
